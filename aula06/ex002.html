@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Meu primeiro programa</title>
+    <style>
+        body {
+            color: white;;
+            background-color:black;
+            font: normal 20pt Arial;
+        }
+        h1 {
+            color: lime;
+            text-align: center;
+        }
+        p {
+            font-style: normal;
+            font-weight: bold;
+            text-align: center;
+        }
+        p.cur {
+            color: yellow;
+            font-size: 4em;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Estou aprendendo JavaScript para Desenvolvimento Web</p>
+    <p>Estou aprendendo paralemante Flutter e Dart</p>
+    <p class="cur">CURIOSA!</p>
+    <script> //Pode ser utilizado 'var', 'let' e 'const'
+        const nome = window.prompt('Qual é seu nome?') // Vai perguntnar o nome...
+        window.alert('É um grande prazer em te conhecer, ' + nome + '!') // Concatenar sinal
+    </script>
+</body>
+</html>
